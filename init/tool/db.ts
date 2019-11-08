@@ -3,6 +3,7 @@ import configs from '../configs/configs.dev';
 
 const pool = createPool(configs.dbConnection);
 
+
 export const query = (sql, values?): Promise<any> => new Promise((resolve, reject) => {
   pool.getConnection((err, connection) => {
     if (err) {
