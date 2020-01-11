@@ -1,7 +1,8 @@
-import router from './main';
+// import router from '../routers';
+const router = require('../routers')
 import stateInfo from '../modules/state';
 
-// '/*' 监听全部
+// 监听全部请求
 router.get('/', (ctx: any, next: any) => {
   // 指定返回类型
   ctx.response.type = 'html';

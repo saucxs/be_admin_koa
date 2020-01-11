@@ -1,5 +1,5 @@
 import * as fs from 'fs';
-import config from './config';
+import config from '../../config/config';
 import { userRecordType, userInfoType, sessionResultType } from '../modules/interfaces';
 
 class ModuleSession {

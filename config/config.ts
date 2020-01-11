@@ -24,6 +24,7 @@ class ModuleConfig {
   public readonly token_size = 28;
   /** token 格式错误提示文字 */
   public readonly token_tip = '无效的token';
+  public readonly baseApi = 'api/tester'
 }
 /** 项目配置 */
 const config = new ModuleConfig();

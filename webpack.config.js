@@ -10,12 +10,12 @@ const path = require('path');
 
 const config = {
   mode: 'development',
-  entry: './src/main.ts',
+  entry: './src/index.ts',
   target: 'node',
   output: {
     // Puts the output at the root of the dist folder
     path: path.join(__dirname, 'dist'),
-    filename: 'index.js'
+    filename: 'config.js'
   },
   resolve: {
     alias: {
